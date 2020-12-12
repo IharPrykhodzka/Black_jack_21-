@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">21</string>
+    <string name="take">Take</string>
+    <string name="stop">Stop</string>
+    <string name="lets_play">Поиграем?</string>
+    <string name="_0">0</string>
+    <string name="card">какая карта</string>
+    <string name="play_again">Play Again</string>
+</resources>
