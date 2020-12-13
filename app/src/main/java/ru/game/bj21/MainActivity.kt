@@ -2,7 +2,6 @@ package ru.game.bj21
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 import splitties.toast.toast
@@ -86,7 +85,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun theCard() {
         val card = player1.takeCard()
-        Log.d("log", card + "_theCard")
         result.visibility = View.VISIBLE
         resultGame.visibility = View.GONE
 
