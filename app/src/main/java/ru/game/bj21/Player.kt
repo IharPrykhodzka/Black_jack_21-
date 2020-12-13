@@ -1,6 +1,7 @@
 package ru.game.bj21
 
-import java.util.*
+import android.util.Log
+
 
 class Player(cards: Cards) {
     var score: Int = 0
@@ -31,7 +32,9 @@ class Player(cards: Cards) {
             countScore(nominal)
         }
 
-        return "$suit $nominal"
+
+        Log.d("log", suit + "_$nominal")
+        return suit + "_$nominal"
     }
 
     private fun countScore(nominal: String) {

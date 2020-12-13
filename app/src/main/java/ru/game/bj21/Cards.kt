@@ -1,7 +1,5 @@
 package ru.game.bj21
 
-import android.content.Context
-import android.widget.Toast
 import splitties.toast.toast
 
 class Cards{
