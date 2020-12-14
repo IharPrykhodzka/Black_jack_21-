@@ -6,7 +6,7 @@
     <string name="_0">0</string>
     <string name="card">какая карта</string>
     <string name="play_again">Play Again</string>
-    <string name="dealer_account">Dealer account:</string>
+    <string name="dealer_account">Dealer score:</string>
     <string name="pass">Pass</string>
-    <string name="my_account">My account:</string>
+    <string name="my_account">My score:</string>
 </resources>
