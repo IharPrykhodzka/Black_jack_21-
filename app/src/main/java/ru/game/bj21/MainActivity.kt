@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-
         takeCard.setOnClickListener {
             theCard()
             if(player1.score > 21 || player1.score == 21) {
